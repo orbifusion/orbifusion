@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This HTML file helps you say the auspicious phrases for 捞魚生
- during Chinese New Year celebrations. -->
+during Chinese New Year celebrations. -->
 
 <html lang="en">
     <head>
@@ -117,9 +117,18 @@
         </dl>
 
         <dl style="color: red;">
-            <dt><strong style="font-size: 35px;">Huat Ah!</strong>
+            <dt><strong style="font-size: 31px;">Huat Ah! Huat Ah!</strong>
             <a href="javascript:void(0);" onclick="playSound('huat_play')">
                     <img src="music_play_green.png" alt="Sound File"></a></dt>
+        </dl>
+
+        <dl style="color: red;">
+            <dt>
+                <img src="cny_lion_dance.png" alt="Lion Dance Image">
+                <img src="cny_lion_dance.png" alt="Lion Dance Image">
+                <img src="cny_lion_dance.png" alt="Lion Dance Image">
+                <a href="javascript:void(0);" onclick="playSound('lion_dance_play')">
+                <img src="music_play_green.png" alt="Sound File"></a></dt>
         </dl>
 
         <audio controls id="raw_fish_play" style="opacity: 0; width: 1px;">
@@ -172,6 +181,10 @@
 
         <audio controls id="huat_play" style="opacity: 0; width: 1px;">
             <source src="cny_huat.mp3" type="audio/mp3">
+        </audio>
+
+        <audio controls id="lion_dance_play" style="opacity: 0; width: 1px;">
+            <source src="cny_lion_dance.mp3" type="audio/mp3">
         </audio>
 
         <script>
